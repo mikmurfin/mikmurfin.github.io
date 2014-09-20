@@ -1,4 +1,4 @@
-﻿# This is the default format. 
+# This is the default format. 
 # For more see: http://jekyllrb.com/docs/permalinks/
 permalink: /:categories/:year/:month/:day/:title 
 
@@ -14,7 +14,7 @@ author :
   name : Mik Murfin
   email : tetsuo5115@gmail.com
   github : mikmurfin
-  twitter : username
+  twitter : mikmurfin
   feedburner : feedname
 
 # The production_url is only used when full-domain names are needed
