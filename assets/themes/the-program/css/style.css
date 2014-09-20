@@ -56,7 +56,7 @@ button,
 input,
 select,
 textarea {
-  font-family: sans-serif;
+  font-family: UbuntuMono-B, sans-serif;
 }
 ::-moz-selection {
   background: #073642;
@@ -131,8 +131,8 @@ pre,
 code,
 kbd,
 samp {
-  font-family: monospace, serif;
-  _font-family: 'courier new', monospace;
+  font-family: MTLmr3m, monospace, serif;
+  _font-family: MTLmr3m, 'courier new', monospace;
   font-size: 1em;
 }
 /* Improve readability of pre-formatted text in all browsers */
@@ -401,7 +401,7 @@ Calculation should be done via  http://j.mp/rNg5uA
 No styleguide reference.
 */
 body {
-  font-family: consolas, monaco, monospace;
+  font-family: UbuntuMono-B, consolas, monaco, monospace;
   font-size: 1em;
   line-height: 1.625em;
 }
@@ -505,9 +505,16 @@ No styleguide reference.
  * http://www.fontsquirrel.com/fonts/Comfortaa
 */
 @font-face {
-  font-family: 'UbuntuMono-B';
+  font-family: 'MTLmr3m';
   src: url('/assets/themes/the-program/font/MTLmr3m.eot');
   src: url('/assets/themes/the-program/font/MTLmr3m.eot?#iefix') format('embedded-opentype'), url('/assets/themes/the-program/font/MTLmr3m.woff') format('woff'), url('/assets/themes/the-program/font/MTLmr3m.ttf') format('truetype'), url('/assets/themes/the-program/font/UbuntuMono-B-webfont.svg#UbuntuMono-B') format('svg');
+  font-weight: normal !important;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'UbuntuMono-B';
+  src: url('/assets/themes/the-program/font/NotoSansJP-Regular_0.eot');
+  src: url('/assets/themes/the-program/font/NotoSansJP-Regular_0.eot?#iefix') format('embedded-opentype'), url('/assets/themes/the-program/font/NotoSansJP-Regular_0.woff') format('woff'), url('/assets/themes/the-program/font/NotoSansJP-Regular_0.otf') format('opentype'), url('/assets/themes/the-program/font/UbuntuMono-B-webfont.svg#UbuntuMono-B') format('svg');
   font-weight: normal !important;
   font-style: normal;
 }
@@ -577,7 +584,7 @@ pre {
   color: #f2f2f2;
   background-color: #393939;
   border: 1px solid #393939;
-  font-family: consolas, monaco, monospace;
+  font-family: MTLmr3m, consolas, monaco, monospace;
   margin-left: 0;
   margin-right: 0;
   padding: 1.625em;
